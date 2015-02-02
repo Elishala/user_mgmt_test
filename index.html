@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>User Management</title>
+    <link rel ="stylesheet" href="user-test.css">
+  </head>
+  <body>
+
+    <div class="main-container">
+      <h1>new user</h1>
+
+
+      <div class="form-container">
+        <form class="user-info">
+          <label>first name<input class="firstName" type="text"></label>
+          <label>last name<input class="lastName" type="text"></label>
+          <label>email<input class="email" type="text"></label>
+          <button class="form-container-button" type="submit">Hello</button>
+        </form>
+      </div>
+
+      <div class="newestUsers">
+        <ul>
+          <li><span class="firstNameResult"></span></li>
+          <li><span class="lastNameResult"></span></li>
+          <li><span class="email"></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="object-store.js"></script>
+    <!--<script src="user-test.js"></script>-->
+    <script src="user.js"></script>
+    <script src="add-user.js"></script>
+
+  </body>
+</html>
